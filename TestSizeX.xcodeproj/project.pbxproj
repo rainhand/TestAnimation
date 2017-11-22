@@ -15,6 +15,8 @@
 		4EB7E6261FB2F3B900286851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E6251FB2F3B900286851 /* main.m */; };
 		4EB7E6301FB2F3B900286851 /* TestSizeXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E62F1FB2F3B900286851 /* TestSizeXTests.m */; };
 		4EB7E63B1FB2F3B900286851 /* TestSizeXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E63A1FB2F3B900286851 /* TestSizeXUITests.m */; };
+		4EB7E64A1FB2F3D000286851 /* TestNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E6491FB2F3D000286851 /* TestNavViewController.m */; };
+		4EB7E64D1FB2F3F700286851 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E64C1FB2F3F700286851 /* TabbarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		4EB7E6361FB2F3B900286851 /* TestSizeXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSizeXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB7E63A1FB2F3B900286851 /* TestSizeXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSizeXUITests.m; sourceTree = "<group>"; };
 		4EB7E63C1FB2F3B900286851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB7E6481FB2F3D000286851 /* TestNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNavViewController.h; sourceTree = "<group>"; };
+		4EB7E6491FB2F3D000286851 /* TestNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavViewController.m; sourceTree = "<group>"; };
+		4EB7E64B1FB2F3F700286851 /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		4EB7E64C1FB2F3F700286851 /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				4EB7E6171FB2F3B900286851 /* AppDelegate.m */,
 				4EB7E6191FB2F3B900286851 /* ViewController.h */,
 				4EB7E61A1FB2F3B900286851 /* ViewController.m */,
+				4EB7E6481FB2F3D000286851 /* TestNavViewController.h */,
+				4EB7E6491FB2F3D000286851 /* TestNavViewController.m */,
+				4EB7E64B1FB2F3F700286851 /* TabbarViewController.h */,
+				4EB7E64C1FB2F3F700286851 /* TabbarViewController.m */,
 				4EB7E61C1FB2F3B900286851 /* Main.storyboard */,
 				4EB7E61F1FB2F3B900286851 /* Assets.xcassets */,
 				4EB7E6211FB2F3B900286851 /* LaunchScreen.storyboard */,
@@ -265,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB7E64D1FB2F3F700286851 /* TabbarViewController.m in Sources */,
 				4EB7E61B1FB2F3B900286851 /* ViewController.m in Sources */,
 				4EB7E6261FB2F3B900286851 /* main.m in Sources */,
+				4EB7E64A1FB2F3D000286851 /* TestNavViewController.m in Sources */,
 				4EB7E6181FB2F3B900286851 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

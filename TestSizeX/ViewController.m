@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor =[UIColor whiteColor];
+    NSLog(@"navgitionbar----%f",self.navigationController.navigationBar.bounds.size.height);
+    NSLog(@"tabbar----%f",self.tabBarController.tabBar.bounds.size.height);
+    NSLog(@"tabbar----%f", [[UIApplication sharedApplication] statusBarFrame].size.height);
+    
 }
 
 
