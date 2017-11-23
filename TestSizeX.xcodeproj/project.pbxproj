@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3AD3131FC6776700A91839 /* TestCatagry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AD3121FC6776700A91839 /* TestCatagry.m */; };
 		4EB7E6181FB2F3B900286851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E6171FB2F3B900286851 /* AppDelegate.m */; };
 		4EB7E61B1FB2F3B900286851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E61A1FB2F3B900286851 /* ViewController.m */; };
 		4EB7E61E1FB2F3B900286851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7E61C1FB2F3B900286851 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3AD3111FC6776700A91839 /* TestCatagry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCatagry.h; sourceTree = "<group>"; };
+		4E3AD3121FC6776700A91839 /* TestCatagry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCatagry.m; sourceTree = "<group>"; };
 		4EB7E6131FB2F3B900286851 /* TestSizeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSizeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB7E6161FB2F3B900286851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EB7E6171FB2F3B900286851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				4EB7E6491FB2F3D000286851 /* TestNavViewController.m */,
 				4EB7E64B1FB2F3F700286851 /* TabbarViewController.h */,
 				4EB7E64C1FB2F3F700286851 /* TabbarViewController.m */,
+				4E3AD3111FC6776700A91839 /* TestCatagry.h */,
+				4E3AD3121FC6776700A91839 /* TestCatagry.m */,
 				4EB7E61C1FB2F3B900286851 /* Main.storyboard */,
 				4EB7E61F1FB2F3B900286851 /* Assets.xcassets */,
 				4EB7E6211FB2F3B900286851 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 				4EB7E64D1FB2F3F700286851 /* TabbarViewController.m in Sources */,
 				4EB7E61B1FB2F3B900286851 /* ViewController.m in Sources */,
 				4EB7E6261FB2F3B900286851 /* main.m in Sources */,
+				4E3AD3131FC6776700A91839 /* TestCatagry.m in Sources */,
 				4EB7E64A1FB2F3D000286851 /* TestNavViewController.m in Sources */,
 				4EB7E6181FB2F3B900286851 /* AppDelegate.m in Sources */,
 			);
